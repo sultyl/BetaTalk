@@ -1,0 +1,218 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.6.0/font/bootstrap-icons.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Montserrat:wght@500;800&family=Red+Hat+Display:wght@300&display=swap');
+
+body {
+    font-family: 'Acme', sans-serif;
+}
+
+.container {
+    margin-left: 200px;
+    
+}
+
+/* Header container */
+
+.header-root {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 200px;
+    margin-top: 70px;
+}
+
+.logo-div {
+    display: flex;
+    height: 20px;
+}
+
+span {
+    font-size: 20px;
+    margin-right: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.break-fill {
+    border-left: 2px solid #e2e2e2; 
+    height: 20px; 
+    margin-right: 25px;
+}
+
+.header-link > a {
+    margin-right: 25px;
+    text-decoration: none;
+    color: #606060;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-link > a:hover {
+    color: black;
+}
+
+#game {
+    border: none;
+    background: none;
+    color: #606060;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#game:hover {
+    color: black;
+}
+
+.nav-bar {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+}
+
+.nav-bar > form > button {
+    font-size: 15px;
+}
+
+#login {
+    border: none;
+    background: none;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+#login:hover {
+    border: 2px solid #3b6a79;
+    background: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: #407785;
+    margin-top: 1px;
+}
+
+#signup {
+    border: #3b6a79;
+    background: #407785;
+    margin-right: 5px;
+    margin-left: 15px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: #e4ffff;
+    font-weight: 600;
+}
+
+#signup:hover {
+    border: 2px solid #407785;
+    background: none;
+    color: black;
+}
+
+/* End of Header container */
+
+/* content-first-half container */
+
+.content {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.content-first-half {
+    width: 50%;
+}
+
+.primary-header > h1 {
+    font-size: 14px;
+    color: #517175;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.secondary-header > h1 {
+    font-size: 50px;
+    line-height: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.secondary-header > p {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.primary-btn {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 45px;
+}
+
+.primary-btn > form > button {
+    font-size: 15px;
+}
+
+
+#signin {
+    border: none;
+    background: none;
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+#signin:hover {
+    border: 2px solid #3b6a79;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    color: #417781;
+}
+
+#learnmore {
+    border: #3b6a79;
+    background: #c7dbe4;
+    margin-right: 5px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #417781;
+}
+
+#learnmore:hover {
+    border: #3b6a79;
+    background: #407785;
+    color: #eee;
+}
+
+.users-number {
+    display: flex;
+}
+
+.first-part {
+    width: 160px;
+}
+
+.break-arrow {
+    border-left: 2px solid #e2e2e2; 
+    height: 65px; 
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+.users-number strong {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    
+}
+
+.bi-lightning-fill {
+    font-size: 30px;
+    color: #417781;
+}
+
+.content-second-half > img {
+    width: 85%;
+}
+/* End of content-first-half container */
+
+/* content-second-half container */
+
+/* End of content-second-half container */
+

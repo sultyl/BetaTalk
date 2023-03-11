@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #4070f4;
+}
+
+.container {
+    display: flex;
+    height: 80%;
+    width: 80%;
+}
+
+/* Registration Container */
+
+.login {
+    flex: 0 0 50%;
+    margin: 150px 85px 10px 150px;
+    height: 80%;
+}
+
+form {
+    height: 80%;
+    width: 85%;
+    background-color: white;
+    padding: 30px 17px 30px 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px #4769b3;
+}
+
+form > h1 {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+form > .header {
+    border-bottom: 3px solid #4070f4;
+    width: 53px;
+    margin-bottom: 39px;
+}
+
+form .input-text > input {
+    width: 480px;
+    height: 60px;
+    border-radius: 5px;
+    margin-bottom: 39px;
+    padding-left: 15px;
+}
+
+form .input-text > input:hover {
+    box-shadow: 4px 4px #4769b3;}
+
+form .input-checkbox {
+    margin-bottom: 25px;
+    font-size: 13px;
+}
+
+::placeholder {
+    font-weight: 700;
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    width: 500px;
+    height: 60px;
+    border-radius: 5px;
+    margin-bottom: 14px;
+    background-color: #4070f4;
+    border: none;
+    color: #ebebeb;
+    font-size: medium;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #4070f4;
+    background-color: #ebebeb;
+}
+
+p {
+    text-align: center;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Registration Container End */
+
+
+/* Content Container */
+
+.content-half {
+    flex: 0 0 50%;
+    margin: 200px 100px 100px 5px;
+    color: #fcfdf8;
+    width: 65%;
+    padding: 0 0 0 0;
+}
+
+.content-half > span {
+    font-size: 95px;
+    font-weight: 900;
+    line-height: 90px;
+}
+
+
+/* Content Container End */
